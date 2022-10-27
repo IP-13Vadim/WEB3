@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body-table tr {
+    vertical-align: top;
+}
+#main-header{
+    padding: 15px 20px;
+    height: 100%;
+    background-color: bisque;
+}
+#main-footer{
+    padding: 15px 20px;
+    height: 100%;
+    background-color: bisque;
+}
+#main-header tr,
+#main-footer tr {
+    vertical-align: middle;
+}
+#menu{
+    padding: 15px 25px;
+    background-color: aquamarine;
+    text-align: left;
+    font-size: 140%;
+    width: 18%;
+}
+#content{
+    width: 64%;
+    min-height: 100%;
+}
+#right{
+    width: 18%;
+}
+#main-right{
+    background-color: aquamarine;
+    text-align: left;
+    padding: 2%;
+}
+#top-sign {
+    width: 15%;
+}
+.sign {
+    padding: 0;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    min-height: 30%;
+    margin: auto;
+}
+#main, #menu, #main-header, #main-right, #main-footer, #under-main{
+    border: 1px solid black;
+}
